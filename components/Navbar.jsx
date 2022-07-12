@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import NavLogo from "../public/assets/navLogo.png";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,7 +14,7 @@ export const Navbar = () => {
   return (
     <div className="fixed w-full shadow-xl h-20 z-[100] bg-[#fefefe]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/../public/assets/navLogo.png" width={80} height={80} />
+        <Image src={NavLogo} width={80} height={80} />
         <div className="flex flex-col">
           <ul className="hidden md:flex gap-10 uppercase text-sm">
             <Link href="/">

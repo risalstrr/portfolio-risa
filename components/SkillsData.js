@@ -1,50 +1,63 @@
+import Html from '../public/assets/skills/html.png';
+import Css from '../public/assets/skills/css.png';
+import Javascript from '../public/assets/skills/javascript.png';
+import ReactImg from '../public/assets/skills/react.png';
+import Tailwind from '../public/assets/skills/tailwind.png';
+import Github from '../public/assets/skills/github1.png';
+import NextJS from '../public/assets/skills/nextjs.png'
+import Django from '../public/assets/skills/django.png'
+import Python from '../public/assets/skills/python.png'
+import Java from '../public/assets/skills/java.png'
+import Typescript from '../public/assets/skills/typescript.png'
+import Spotify from '../public/assets/skills/spotify.png'
+
 export const SkillsData = [
     {
-        image: '/../public/assets/skills/html.png',
+        image: Html,
         title: 'HTML'
     },
     {
-        image: '/../public/assets/skills/css.png',
+        image: Css,
         title: 'CSS'
     },
     {
-        image: '/../public/assets/skills/javascript.png',
+        image: Javascript,
         title: 'Javascript'
     },
     {
-        image: '/../public/assets/skills/react.png',
+        image: ReactImg,
         title: 'React'
     },
     {
-        image: '/../public/assets/skills/tailwind.png',
+        image: Tailwind,
         title: 'Tailwind'
     },
     {
-        image: '/../public/assets/skills/github1.png',
+        image: Github,
         title: 'Github'
     },
     {
-        image: '/../public/assets/skills/nextjs.png',
+        image: NextJS,
         title: 'Next'
     },
     {
-        image: '/../public/assets/skills/django.png',
+        image: Django,
         title: 'Django'
     },
     {
-        image: '/../public/assets/skills/python.png',
+        image: Python,
         title: 'Python'
     },
     {
-        image: '/../public/assets/skills/java.png',
+        image: Java,
         title: 'Java'
     },
     {
-        image: '/../public/assets/skills/typescript.png',
+        image: Typescript,
         title: 'Typescript'
     },
     {
-        image: '/../public/assets/skills/spotify.png',
+        image: Spotify,
         title: 'Spotify'
     },
 ]
